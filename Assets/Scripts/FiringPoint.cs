@@ -25,7 +25,7 @@ public class FiringPoint : MonoBehaviour
 
     private void FireProjectile()
     {
-        //create a refrence to hold our cinstantiated object
+        //create a refrence to hold our instantiated object
         GameObject projectileInstance;
         //Instatiate our projectile prefab
         projectileInstance = Instantiate(projectilePrefab, transform.position, transform.rotation);
